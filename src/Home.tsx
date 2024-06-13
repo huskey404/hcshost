@@ -7,7 +7,7 @@ export function Home() {
           name="viewport"
           content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"
         />
-        <title>Telegraph Image Hosting</title>
+        <title>hcshost</title>
         <link
           rel="stylesheet"
           href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.5.3/css/bootstrap.min.css"
@@ -19,9 +19,9 @@ export function Home() {
       <body>
         <div className="full-window" ondragover="event.preventDefault()">
           <div className="container card">
-            <h3 className="text-center">Telegraph Image Hosting</h3>
+            <h3 className="text-center">hcshost</h3>
             <p className="text-center text-muted">
-              Free & Unlimited Image Hosting
+              keep your mouth shut
             </p>
             <button
               id="upload"
@@ -31,9 +31,9 @@ export function Home() {
             >
               <span className="spinner-grow spinner-grow-sm d-none"></span>
               <span className="upload-text">
-                Drag & Drop your files or{" "}
+                drop image or {" "}
                 <u>
-                  <i>Browse</i>
+                  <i>upload file</i>
                 </u>
               </span>
               <input
@@ -50,7 +50,7 @@ export function Home() {
             ></div>
             <a
               className="text-center text-muted"
-              href="https://github.com/ifyour/cf-image-hosting"
+              href="https://github.com/huskey404"
               target="_blank"
             >
               GitHub
